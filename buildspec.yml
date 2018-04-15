@@ -20,3 +20,4 @@ artifacts:
     - 'scripts/**/*'
     - 'package.json'
     - 'prod_node_modules/**/*'
+    - 'appspec.yml'
