@@ -15,8 +15,8 @@ cache:
     - 'prod_node_modules/**/*'
 artifacts:
   files:
-    - 'build/*'
-    - 'public/*'
-    - 'scripts/*'
+    - 'build/**/*'
+    - 'public/**/*'
+    - 'scripts/**/*'
     - 'package.json'
-    - 'prod_node_modules/*'
+    - 'prod_node_modules/**/*'
