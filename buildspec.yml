@@ -18,6 +18,7 @@ artifacts:
     - 'build/**/*'
     - 'public/**/*'
     - 'scripts/**/*'
+    - 'views/**/*'
     - 'package.json'
     - 'prod_node_modules/**/*'
     - 'appspec.yml'
