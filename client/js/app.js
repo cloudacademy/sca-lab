@@ -12,8 +12,8 @@ $('input').keypress((e) => {
 $('#get-message').on('click', () => {
   if (pending === false) {
     pending = true
-    let input = $('input[type=text][name=name]')
-    let name = input.val()
+    const input = $('input[type=text][name=name]')
+    const name = input.val()
     input.val('')
     $.ajax({
       type: 'POST',
